@@ -1,0 +1,12 @@
+{
+  "name": "express-wrapper",
+  "version": "1.0.0",
+  "description": "Functions to simplify use of express",
+  "main": "index.js",
+  "author": "Lucas Simão",
+  "license": "MIT",
+  "type": "module",
+  "peerDependencies": {
+    "express": "^4.17.1"
+  }
+}

@@ -1,12 +1,18 @@
 {
-  "name": "express-wrapper",
+  "name": "@siimaoo/express-wrapper",
   "version": "1.0.0",
   "description": "Functions to simplify use of express",
+  "scripts" : {
+    "test" : "exit 0"
+  },
   "main": "index.js",
   "author": "Lucas Simão",
   "license": "MIT",
   "type": "module",
   "peerDependencies": {
     "express": "^4.17.1"
+  },
+  "publishConfig": {
+    "@siimaoo:registry": "https://npm.pkg.github.com"
   }
 }

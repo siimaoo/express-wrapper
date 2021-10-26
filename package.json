@@ -2,8 +2,8 @@
   "name": "@siimaoo/express-wrapper",
   "version": "0.1.0",
   "description": "Functions to simplify use of express",
-  "scripts" : {
-    "test" : "exit 0"
+  "scripts": {
+    "test": "exit 0"
   },
   "main": "index.js",
   "author": "Lucas Simão",

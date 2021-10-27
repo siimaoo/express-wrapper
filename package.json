@@ -5,7 +5,10 @@
   "scripts": {
     "test": "exit 0"
   },
-  "main": "index.js",
+  "files": [
+    "src/"
+  ],
+  "main": "src/index.js",
   "author": "Lucas Simão",
   "license": "MIT",
   "type": "module",

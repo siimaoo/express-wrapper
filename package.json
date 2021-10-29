@@ -3,19 +3,25 @@
   "version": "0.1.0-alpha-3",
   "description": "Functions to simplify use of express",
   "scripts": {
-    "test": "exit 0"
+    "test": "exit 0",
+    "build": "babel -d dist ./src/*.js -s"
   },
   "files": [
-    "src/"
+    "dist/"
   ],
-  "main": "src/index.js",
+  "main": "dist/index.js",
   "author": "Lucas Simão",
   "license": "MIT",
-  "type": "module",
   "peerDependencies": {
     "express": "^4.17.1"
   },
   "publishConfig": {
     "@siimaoo:registry": "https://npm.pkg.github.com"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.15.7",
+    "@babel/core": "^7.15.8",
+    "@babel/node": "^7.15.8",
+    "@babel/preset-env": "^7.15.8"
   }
 }

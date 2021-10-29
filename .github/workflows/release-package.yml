@@ -13,6 +13,7 @@ jobs:
         with:
           node-version: 12
       - run: npm test
+      - run: npm build
 
   publish-gpr:
     needs: build
